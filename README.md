@@ -1,4 +1,8 @@
-MIT License
+# NoSQL: Social Network API 
+
+
+
+## MIT License
 
 Copyright (c) 2023 Sophia Williams
 
