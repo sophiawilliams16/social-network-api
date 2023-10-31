@@ -1,5 +1,15 @@
 # NoSQL: Social Network API 
 
+## Installation 
+
+
+## Usage 
+
+
+## Credits 
+- [Express.js](https://www.npmjs.com/package/express)
+- [Mongoose](https://www.npmjs.com/package/mongoose)
+- [Using Virtual Properties](https://www.youtube.com/watch?v=y-GOzIxsmyg) 
 
 
 ## MIT License
