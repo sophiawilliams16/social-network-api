@@ -27,6 +27,11 @@ const thoughtData = [
         username: "john",
         reactions: [],
     },
+    {
+        thoughtText: "xyz",
+        username: "jack",
+        reactions: [],
+    }
 ];
 
 module.exports = { userData, thoughtData };
