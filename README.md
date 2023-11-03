@@ -1,9 +1,33 @@
 # NoSQL: Social Network API 
 
-## Installation 
+## Description 
 
+This application is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. It uses Express.js for routing, a MongoDB database, and the Mongoose ODM. 
 
-## Usage 
+Because this application has no front end, I will provide a walk through video that displays the functionality of the routes in Insomnia. 
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [MIT License](#license)
+
+## Installation
+
+To install the project ... 
+
+* Download the code from the GitHub link [HERE](https://github.com/sophiawilliams16/tech-blog). 
+
+* Open up a terminal from `server.js` and run `npm i` in your terminal to download all of the dependencies.  
+
+* Run `npm run seed` to seed the database. 
+
+* Run `nodemon server.js` to connect to the server. 
+
+## Usage  
+
+Please see this video link through Google Drive for a walk through of the functionality [LINK](https://drive.google.com/file/d/1Z_ndra00GOYw-hZoIcbwEJxxutEBMD4U/view).
 
 
 ## Credits 

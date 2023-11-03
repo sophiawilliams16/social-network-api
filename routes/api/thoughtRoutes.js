@@ -7,7 +7,8 @@ const {
     createThought,
     updateThought,
     deleteThought,
-    addReaction
+    addReaction,
+    removeReaction
 } = require("../../controllers/thoughtController");
 
 // Define which functions run based on the URL
@@ -18,9 +19,9 @@ router.route("/").get(getThoughts).post(createThought);
 router.route("/:thoughtId").get(getSingleThought).put(updateThought).delete(deleteThought);
 
 //   /api/thoughts/:thoughtId/reactions
-router.route("/:thoughtid/reactions/:userId").post(addReaction);
+router.route("/:thoughtId/reactions").post(addReaction);
 
 //   /api/thoughts/:thoughtId/reactions/:reactionId
-router.route("/:thoughtid/reactions/:reactionId").delete();
+router.route("/:thoughtId/reactions/:reactionId").delete(removeReaction);
 
 module.exports = router;
