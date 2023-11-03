@@ -17,7 +17,7 @@ Because this application has no front end, I will provide a walk through video t
 
 To install the project ... 
 
-* Download the code from the GitHub link [HERE](https://github.com/sophiawilliams16/tech-blog). 
+* Download the code from the GitHub link [HERE](https://github.com/sophiawilliams16/social-network-api). 
 
 * Open up a terminal from `server.js` and run `npm i` in your terminal to download all of the dependencies.  
 
